@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navigation.css";
 
 export const LeftNavigation = () => {
@@ -28,10 +29,10 @@ export const LeftNavigation = () => {
             <div className="menu">
               <ul>
                 <li>
-                  <a href="#">Menu Item</a>
+                  <Link to="/about">About Me</Link>
                 </li>
                 <li>
-                  <a href="#">Menu Item</a>
+                  <Link to="/themeChanger">Theme change</Link>
                 </li>
               </ul>
             </div>
