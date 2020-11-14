@@ -6,13 +6,11 @@ type Props = {
 };
 
 export const ThemeContextProvider = ({ children }: Props) => {
-  const [userId, setUserId] = useState("Initial");
-  const [customerId, setCustomerId] = useState("Initial");
+  //set Initial theme as dark
+  const [themeName, setThemeName] = useState("theme-dark");
 
   return (
-    <ThemeContext.Provider
-      value={{ userId, setUserId, customerId, setCustomerId }}
-    >
+    <ThemeContext.Provider value={{ themeName, setThemeName }}>
       {children}
     </ThemeContext.Provider>
   );

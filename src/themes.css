@@ -2,7 +2,7 @@
   background-color: #282c34;
 }
 
-.theme-white {
+.theme-light {
   background-color: white;
 }
 
@@ -24,10 +24,6 @@
 
 .theme-sunset {
   background: linear-gradient(to right, #ff6a00, #ee0979);
-}
-
-.theme-netflix {
-  background: linear-gradient(to right, #1f1c18, #8e0e00);
 }
 
 .theme-rainbow {
