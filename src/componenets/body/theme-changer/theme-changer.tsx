@@ -13,7 +13,9 @@ export const ThemeChanger = () => {
           value={themeName}
           onChange={(e) => setThemeName(e.target.value)}
         >
-          <option selected>Dark</option>
+          <option value="theme-dark" selected>
+            Dark
+          </option>
           <option value="theme-light">Light</option>
           <option value="theme-frost">Frost</option>
           <option value="theme-mango">Mango</option>

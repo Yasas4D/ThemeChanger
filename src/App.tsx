@@ -6,10 +6,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ThemeChanger } from "./componenets/body/theme-changer/theme-changer";
 import { Welcome } from "./componenets/body/main/welcome";
 import "./themes.css";
+import { useThemeContextCustomHook } from "./componenets/use-context/ThemeContextCustomHook";
 function App() {
-  const isBackgroundRed = true;
+  const { themeName } = useThemeContextCustomHook()!;
+
   return (
-    <div className={isBackgroundRed ? "theme-dark" : "theme-white"}>
+    <div className={themeName}>
       <div className="App">
         <header className="App-header">
           <Router>

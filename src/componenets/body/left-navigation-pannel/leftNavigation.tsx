@@ -23,9 +23,10 @@ export const LeftNavigation = () => {
           </label>
 
           <nav className="pure-drawer" data-position="left">
-            <br></br>
-            <br></br>
-            <p>Insert your off-canvas content for the left drawer here</p>
+            <br />
+            <br />
+            <br />
+            <p>Simple theme changer application</p>
             <div className="menu">
               <ul>
                 <li>
