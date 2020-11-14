@@ -7,6 +7,7 @@ import { ThemeChanger } from "./componenets/body/theme-changer/theme-changer";
 import { Welcome } from "./componenets/body/main/welcome";
 import "./themes.css";
 import { useThemeContextCustomHook } from "./componenets/use-context/ThemeContextCustomHook";
+
 function App() {
   const { themeName } = useThemeContextCustomHook()!;
 

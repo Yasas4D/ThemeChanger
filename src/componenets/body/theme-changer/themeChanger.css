@@ -9,11 +9,11 @@ select {
   background: #2c3e50;
   background-image: none;
 }
-/* Remove IE arrow */
+
 select::-ms-expand {
   display: none;
 }
-/* Custom Select */
+
 .select {
   position: relative;
   display: flex;
@@ -30,7 +30,7 @@ select {
   color: #fff;
   cursor: pointer;
 }
-/* Arrow */
+
 .select::after {
   content: "\25BC";
   position: absolute;
@@ -44,7 +44,7 @@ select {
   -o-transition: 0.25s all ease;
   transition: 0.25s all ease;
 }
-/* Transition */
+
 .select:hover::after {
   color: #f39c12;
 }
