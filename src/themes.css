@@ -1,0 +1,56 @@
+.theme-dark {
+  background-color: #282c34;
+}
+
+.theme-white {
+  background-color: white;
+}
+
+.theme-frost {
+  background: linear-gradient(to right, #004e92, #000428);
+}
+
+.theme-mango {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(29, 231, 11)
+  );
+}
+
+.theme-gold {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.theme-sunset {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+}
+
+.theme-netflix {
+  background: linear-gradient(to right, #1f1c18, #8e0e00);
+}
+
+.theme-rainbow {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+.theme-unicorn {
+  background: linear-gradient(
+    to right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  );
+}

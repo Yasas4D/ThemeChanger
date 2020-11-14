@@ -5,27 +5,31 @@ import { AboutMe } from "./componenets/body/about-me/aboutMe";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ThemeChanger } from "./componenets/body/theme-changer/theme-changer";
 import { Welcome } from "./componenets/body/main/welcome";
+import "./themes.css";
 function App() {
+  const isBackgroundRed = true;
   return (
-    <div className="App">
-      <header className="App-header">
-        <Router>
-          <div>
-            <LeftNavigation></LeftNavigation>
-            <Switch>
-              <Route exact path="/">
-                <Welcome />
-              </Route>
-              <Route path="/about">
-                <AboutMe />
-              </Route>
-              <Route path="/themeChanger">
-                <ThemeChanger></ThemeChanger>
-              </Route>
-            </Switch>
-          </div>
-        </Router>
-      </header>
+    <div className={isBackgroundRed ? "theme-dark" : "theme-white"}>
+      <div className="App">
+        <header className="App-header">
+          <Router>
+            <div>
+              <LeftNavigation></LeftNavigation>
+              <Switch>
+                <Route exact path="/">
+                  <Welcome />
+                </Route>
+                <Route path="/about">
+                  <AboutMe />
+                </Route>
+                <Route path="/themeChanger">
+                  <ThemeChanger></ThemeChanger>
+                </Route>
+              </Switch>
+            </div>
+          </Router>
+        </header>
+      </div>
     </div>
   );
 }
