@@ -13,7 +13,7 @@ export const AboutMe = () => {
           >
             <span className="fa fa-group"></span>
             <h2>Yasas</h2>
-            <p className="lead">Energetic Tec Enthusiastic</p>
+            <p className="lead">An Energetic Tec Enthusiastic</p>
           </div>
         </div>
       </div>
